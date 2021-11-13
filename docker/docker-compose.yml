@@ -1,8 +1,8 @@
 version: '2'
 
 services:
-  violet:
-    image: registry.cn-hongkong.aliyuncs.com/chengka/violet:latest
+  nginx:
+    image: registry.ap-southeast-1.aliyuncs.com/hfbpw/giligili-vue:v0.0.1
     restart: always
     ports:
-      - 3010:80
+      - 3001:80
