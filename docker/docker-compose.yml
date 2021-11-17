@@ -2,7 +2,7 @@ version: '2'
 
 services:
   nginx:
-    image: registry.cn-hangzhou.aliyuncs.com/my_giligili/giligii:v1.0.0
+    image: registry.ap-southeast-1.aliyuncs.com/hfbpw/giligili-vue:v0.0.3
     restart: always
     ports:
       - 3001:80
